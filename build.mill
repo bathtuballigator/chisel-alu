@@ -10,7 +10,7 @@ import mill.scalalib._
 // to properly generate and handle test directories and output files.
 // See: https://github.com/com-lihaoyi/mill/issues/3840
 
-object %NAME% extends SbtModule {
+object `chisel-alu` extends SbtModule {
   def scalaVersion = "2.13.18"
   def chiselVersion = "7.7.0"
 
