@@ -5,8 +5,6 @@ You've done the [Chisel Bootcamp](https://github.com/freechipsproject/chisel-boo
 are ready to start your own Chisel project.  The following procedure should get you started
 with a clean running [Chisel3](https://www.chisel-lang.org/) project.
 
-## Make your own Chisel3 project
-
 ### Dependencies
 
 #### JDK 11 or newer
@@ -24,6 +22,10 @@ You can read more about Mill on its website: https://mill-build.org.
 
 The test with `svsim` needs Verilator installed.
 See Verilator installation instructions [here](https://verilator.org/guide/latest/install.html).
+
+## Project Description
+An ALU, which can take - size of cache, data width and a list of functions as arguments. 
+
 
 ### How to get started
 
